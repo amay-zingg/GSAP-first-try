@@ -251,7 +251,17 @@ html {
   overflow: hidden;
 }
 
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.husky img {
+  width: 100px;
+}
+
 body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
   color: maroon;
   font-size: 3rem;
