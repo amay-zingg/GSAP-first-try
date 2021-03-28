@@ -27,12 +27,11 @@ $(() => {
 
     var tl = gsap.timeline();
     //sequenced one-after-the-other
-    tl.to(".husky", {rotation: -50, x: 300, duration: 3}) //notice that there's no semicolon!
-    .to(".husky", {rotation: 50, x: 100, duration: 2})
-    .to(".husky", {duration: 3, rotation: 360});
+    tl.to(".husky", {rotation: -50, x: 100, duration: 3}) //notice that there's no semicolon!
+    tl.to(".husky", {rotation: 50, x: -125, duration: 2})
+    tl.to(".husky", {duration: 3, rotation: 360})
+    tl.to(".husky", {rotation: -50, x: 100, duration: 1});
 
-
-    // gsap.to(".husky", {rotation: -50, x: 300, duration: 3});
 
 }); // * * * * END OF DOCUMENT READY
 

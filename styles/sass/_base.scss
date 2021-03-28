@@ -12,18 +12,6 @@ html {
     font-size: 62.5%;
 }
 
-.skip-link {
-    position: fixed;
-    top: -200px;
-    background: #000;
-    color: #FFF;
-    padding: 10px;
-}
-
-.skip-link:focus {
-    top: 0; /* Now the link will appear */
-}
-
 .visuallyhidden:not(:focus):not(:active) {
     position: absolute;
     width: 1px;
@@ -35,4 +23,26 @@ html {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+body{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: maroon;
+    font-size: 2rem;
+    text-align: center;
+}
+
+// MOBILE FIRST SIZING
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+@media only screen and (min-width: 900px) {
+	.wrapper{
+		max-width: 1024px;
+		margin: 0 auto;
+	}
 }
